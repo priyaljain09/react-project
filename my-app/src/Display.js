@@ -1,7 +1,7 @@
 const user = {
     name: 'Heddy Lamarr',
-  //  imageUrl:'C:\Users\pl jain\OneDrive\Desktop\projects\my-app\src',
-    imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
+    imageUrl:'https://cdn.zmescience.com/wp-content/uploads/2017/03/Sumatran_Tiger_Berlin_Tierpark.jpg',
+    //imageUrl: 'https://i.imgur.com/yXOvdOSs.jpg',
     imageSize: 90,
   };
   
@@ -10,15 +10,13 @@ const user = {
       <>
         <h1>{user.name}</h1>
         <img
-          className="avatar"
           src={user.imageUrl}
-          alt={'Photo of: ' + user.name}
+          alt={'Photo of ' + user.name}
           style={{
-            width: user.imageSize,
-            height: user.imageSize
+          width: user.imageSize,
+         height: user.imageSize
           }}
         />
       </>
     );
   }
-  
