@@ -6,11 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import Header from './Header';
 import Display from './Display';
 import Tagore from './Tagore.jpg';
+import Event from './Event'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
-    <Display/>
+    {/* <Header/>
+    <App/>
+    <Display/> */}
+    <Event/>
   </React.StrictMode>
 );
 
