@@ -2,18 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 //import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import Display from './Display';
-import Tagore from './Tagore.jpg';
-import Event from './Event'
+//import reportWebVitals from './reportWebVitals';
+//import Header from './Header';
+//import Display from './Display';
+//import Tagore from './Tagore.jpg';
+//import Event from './Event'
+import Todo from './Todo.js';
+//import Practice from './Practice'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     {/* <Header/>
     <App/>
     <Display/> */}
-    <Event/>
+  
+    <Todo/>
   </React.StrictMode>
 );
 
