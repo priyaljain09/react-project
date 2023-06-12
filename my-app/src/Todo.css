@@ -1,0 +1,31 @@
+button{
+    height: 40px;
+    width: 80px;
+    border:2px solid black;
+}
+.Add{
+    height: 40px;
+}
+body{
+    background-color: rgb(160, 158, 158);
+    
+    /* background-color: darksalmon; */
+}
+.Box{
+    margin: 20px;
+}
+/* .List{
+    border: 2px solid black;
+    width: 80%;
+    height: 600px;
+} */
+.item{
+    background-color: black;
+    color: white;
+    margin: 2px;
+    height: 30px;
+    width: 60%;
+}
+h1{
+    margin-top: 10px;
+}
