@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import { useState} from 'react';
 import './Todo.css';
 
 function createInitialTodos() {
   const initialTodos = [];
-
+ 
   return initialTodos;
 }
 
