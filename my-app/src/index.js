@@ -7,8 +7,9 @@ import './index.css';
 //import Display from './Display';
 //import Tagore from './Tagore.jpg';
 //import Event from './Event'
-import Hook from './Hook.js';
-import Hook2 from './Hook2.js';
+// import Hook from './Hook.js';
+// import Hook2 from './Hook2.js';
+import Context from './Context.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,9 +17,9 @@ root.render(
     {/* <Header/>
     <App/>
     <Display/> */}
-  
-    <Hook/>
-    <Hook2/>
+  <Context/>
+    {/* <Hook/>
+    <Hook2/> */}
   </React.StrictMode>
 );
 

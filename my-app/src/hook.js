@@ -5,7 +5,6 @@
     const initialTodos = [];
     return initialTodos;
   }
-
   export default function App(){
     const [todos, setTodos] = useState(createInitialTodos);
     const [text, setText] = useState('');
